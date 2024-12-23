@@ -1,0 +1,22 @@
+batch_size: 256
+epochs: 100
+eval_every_n_epochs: 1
+log_every_n_steps: 50
+fp16_precision: False
+init_lr: 0.005
+init_base_lr: 0.0001
+weight_decay: 1e-6
+gpu: cuda:1
+task_name: [qm7]
+model_type: MolEN
+model: 
+  num_layer: 3
+  emb_dim: 300
+  feat_dim: 512
+  drop_ratio: 0.3
+  pool: mean
+dataset:
+  num_workers: 16
+  valid_size: 0.1
+  test_size: 0.1
+  splitting: scaffold
