@@ -25,11 +25,12 @@ All data used in this paper are uploaded and can be accessed.
 
 
 
-
-
 The core code of MIFS will be published when the paper review is complete. 
 Please stay tuned for updates!
 Thank you.
 
-
+## Acknowledgement
+- PyTorch implementation of MolCLR: [https://github.com/yuyangw/MolCLR](https://github.com/yuyangw/MolCLR)
+- Constructed elements knowledge graph ElementKG: [https://github.com/HICAI-ZJU/KANO](https://github.com/HICAI-ZJU/KANO)
+- Graph adaptive augmentation: [https://github.com/CRIPAC-DIG/GCA](https://github.com/CRIPAC-DIG/GCA)
 
